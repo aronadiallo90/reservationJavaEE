@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+
+
+.contenir{
+    
+    display:grid;
+    grid-template-rows: 100px 100px  1fr ;
+    grid-row-gap : 50px;
+    
+}
+
+.entete{
+    background-color:#53af57;
+    text-align: center;
+    letter-spacing: 50px; 
+    -webkit-text-stroke: 2px white;
+    
+    
+}
+
+
+.pavillon{
+    
+    padding :10px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 200px;
+   
+}
+    
+ .pavillon .pave{
+    background-color:#53af57;
+     text-align: center;
+     width: 30%;
+    
+     margin-top: 20px;
+     color: white;
+     box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+ }
+ .pavillon .pave img {
+ -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  
+ }
+ .pavillon .pave:hover img{
+ -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+  
+ }
+
+.pave a{
+    display:block;
+     width: 100%;
+     color: white;
+     list-style: none;
+     text-decoration: none;
+    
+}
+
+.rien .annulerreservation button{
+	margin :25px;
+	margin-top : 45px;
+}
+
+.rien .etudiant{
+    
+    color: white;
+    background-color:#53af57;
+    text-align: left;
+    padding-top: 15px;
+    letter-spacing: 2px;
+    word-spacing: 5px; 
+    margin-bottom : 25px;
+    margin-left:25px;
+}
+
+
+.contenir .rien{
+   
+    display: grid;
+    grid-template-columns: 400px 100px;
+   
+}
+body{
+	background-color:white;
+
+}
